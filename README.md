@@ -45,12 +45,12 @@ bash
 👉 http://localhost:8080/swagger-ui/index.html
 
 Эндпоинты API
-Метод	URL	Назначение	Успешный ответ
-POST	/api/tasks	Создать задачу	201 Created
-GET	/api/tasks	Получить список задач	200 OK
-GET	/api/tasks/{id}	Получить задачу по ID	200 OK
-PATCH	/api/tasks/{id}/status	Изменить статус	200 OK
-DELETE	/api/tasks/{id}	Удалить задачу	204 No Content
+Метод	URL	                    Назначение	       Успешный ответ
+POST	/api/tasks	            Создать задачу	        201 Created
+GET	    /api/tasks	            Получить список задач   200 OK
+GET	    /api/tasks/{id}	        Получить задачу по ID	200 OK
+PATCH	/api/tasks/{id}/status	Изменить статус	        200 OK
+DELETE	/api/tasks/{id}	        Удалить задачу	        204 No Content
 Примеры запросов к API
 1. Создать задачу
    http
